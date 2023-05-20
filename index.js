@@ -2,6 +2,7 @@ import express from "express";
 import mongoose from "mongoose";
 import * as dotenv from "dotenv";
 import cors from "cors";
+const nodev = process.env.NODE_VERSION = '18.15.0'
 
 import createImageRouter from "./routes/createImageRoutes.js";
 import postRouter from "./routes/postRoutes.js";

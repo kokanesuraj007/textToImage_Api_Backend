@@ -20,6 +20,7 @@ function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj;
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
+var nodev = process.env.NODE_VERSION = '18.15.0';
 dotenv.config();
 var app = (0, _express["default"])();
 var port = 1710;
